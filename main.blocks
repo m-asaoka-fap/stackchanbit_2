@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="?:#Di+}c-!U;0^0w$]qc" x="-111" y="-343"><statement name="HANDLER"><block type="custom_start" id=":At5WfCi|38``ix{W9O0"><next><block type="device_show_leds" id="2;JirDI~/Q,cops`ZAr`"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        . . . . .
+        `</field></block></next></block></statement></block><block type="input_logo_event" id="-k;wC^2I~M68eQEXF?zZ" x="310" y="-342"><field name="action">TouchButtonEvent.LongPressed</field><statement name="HANDLER"><block type="custom_SetAvatar" id="L/UJ^Xi=*sX)`*k@3{k0"><field name="value">Avatar.Happy</field><next><block type="custom_SetTextAction" id="-OVmx~,6iUY[=Jy(hFNt"><field name="value">CustomTextAction.SayHappy</field><next><block type="basic_show_icon" id="y2MKc5VLqXLRxk;~~9zm"><field name="i">IconNames.Happy</field></block></next></block></next></block></statement></block><block type="device_gesture_event" id="J8;NywK*[jKplk|vnw:*" x="296" y="-76"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="custom_SetAvatar" id="g$L_`|n7+K5ERF8,QhWK"><field name="value">Avatar.Angry</field><next><block type="custom_SetTextAction" id="RRJ=q3kYX^nA+`pJ_n)V"><field name="value">CustomTextAction.SayAngry</field><next><block type="basic_show_icon" id="4nC!QYUnG~S~J3k?rXW8"><field name="i">IconNames.Angry</field></block></next></block></next></block></statement></block><block type="device_forever" id="Gs0/EP47@xD}N|Py91{7" x="-133" y="47"></block><block type="device_button_event" id="#Yrg4|Zrb@fbShSCs_xE" x="-112" y="202"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="custom_SetTiltAction" id="$w`29{~_Vj[WG%UU(bq)"><field name="value">CustomTiltAction.TiltFlont</field><next><block type="custom_SetPanAction" id="eblwMy)vHFu~BUY;nu{w"><field name="value">CustomPanAction.PanFlont</field><next><block type="custom_SetAvatar" id="S[fC%(5L7|zH}Za-4[19"><field name="value">Avatar.Neutral</field><next><block type="custom_SetTextAction" id="H^$h2F!bDg{`c[LOV7nz"><field name="value">CustomTextAction.Off</field><next><block type="device_show_leds" id="F/uWEi.G6(YX66;!@I}w"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></next></block></statement></block></xml>
