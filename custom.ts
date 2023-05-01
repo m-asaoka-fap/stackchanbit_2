@@ -54,7 +54,7 @@ enum CustomTextAction {
     SayGoodMorning = 2,
     //% block="「おやすみなさい」"
     SayGoodNight = 3,
-    //% block="「プンプン！」"
+    //% block="「おこった！」"
     SayAngry = 4,
     //% block="「うれしい！」"
     SayHappy = 5,
@@ -158,7 +158,7 @@ namespace custom {
                 strValue = "おやすみなさいzzz";
                 break;
             case CustomTextAction.SayAngry:
-                strValue = "プンプン！";
+                strValue = "おこった！";
                 break;
             case CustomTextAction.SayHappy:
                 strValue = "うれしい！";
