@@ -54,13 +54,13 @@ enum CustomTextAction {
     SayGoodMorning = 2,
     //% block="「おやすみなさい」"
     SayGoodNight = 3,
-    //% block="「おこった！」"
+    //% block="「おこった」"
     SayAngry = 4,
-    //% block="「うれしい！」"
+    //% block="「うれしい」"
     SayHappy = 5,
-    //% block="「かなしい…」"
+    //% block="「かなしい」"
     SaySat = 6,
-    //% block="「うーん…」"
+    //% block="「うーん」"
     SayDoubt = 7
 }
 /**
@@ -149,25 +149,25 @@ namespace custom {
         let strValue = "";
         switch(value) {
             case CustomTextAction.SayHello:
-                strValue = "こんにちは！";
+                strValue = "こんにちは";
                 break;
             case CustomTextAction.SayGoodMorning:
-                strValue = "おはよう！";
+                strValue = "おはよう";
                 break;
             case CustomTextAction.SayGoodNight:
-                strValue = "おやすみなさいzzz";
+                strValue = "おやすみなさい";
                 break;
             case CustomTextAction.SayAngry:
-                strValue = "おこった！";
+                strValue = "おこった";
                 break;
             case CustomTextAction.SayHappy:
-                strValue = "うれしい！";
+                strValue = "うれしい";
                 break;
             case CustomTextAction.SaySat:
-                strValue = "かなしい...";
+                strValue = "かなしい";
                 break;
             case CustomTextAction.SayDoubt:
-                strValue = "うーん...";
+                strValue = "うーん";
                 break;
             case CustomTextAction.Off:
             default:
