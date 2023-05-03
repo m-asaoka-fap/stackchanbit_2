@@ -10,6 +10,12 @@
 * ギアボタンメニューの中にある **拡張機能** をクリックしてください
 * **https://github.com/m-asaoka-fap/stackchanbit_2** を検索してインポートします。
 
+## 本ブロックの使用について
+
+本ブロックの使用許諾権については一般社団法人FAPに属します。
+こちらの機能を使用して、学校の授業やワークショップを実施するには、一般社団法人FAPの許諾が必要となります。
+詳細については、こちら[https://www.kanazawafap.com/contact.html] からお問い合わせください。
+
 ## このプロジェクトを編集します ![ビルド ステータス バッジ](https://github.com/m-asaoka-fap/stackchanbit_2/workflows/MakeCode/badge.svg)
 
 MakeCode でこのリポジトリを編集します。
