@@ -173,7 +173,7 @@ namespace custom {
             default:
                 break;
         }
-        sendText(strValue);
+        SendSpeakValue(strValue);
         textStatus = value;
     }
     /**
