@@ -61,7 +61,9 @@ enum CustomTextAction {
     //% block="「かなしい」"
     SaySat = 6,
     //% block="「うーん」"
-    SayDoubt = 7
+    SayDoubt = 7,
+    //% block="「こんばんは」"
+    SayGoodEvening = 8
 }
 /**
  *  カスタムブロック
@@ -149,31 +151,36 @@ namespace custom {
         let strValue = "";
         switch(value) {
             case CustomTextAction.SayHello:
-                strValue = "HELLO";
+                strValue = "  HELLO";
                 break;
             case CustomTextAction.SayGoodMorning:
-                strValue = "GoodMorning";
+                strValue = "  GoodMorning";
                 break;
             case CustomTextAction.SayGoodNight:
-                strValue = "GoodNight zzz";
+                strValue = "  GoodNight zzz";
                 break;
             case CustomTextAction.SayAngry:
-                strValue = "Angry!!";
+                strValue = "  Angry!!";
                 break;
             case CustomTextAction.SayHappy:
-                strValue = "Happy!!";
+                strValue = "  Happy!!";
                 break;
             case CustomTextAction.SaySat:
-                strValue = "Sat...";
+                strValue = "  Sad...";
                 break;
             case CustomTextAction.SayDoubt:
-                strValue = "Uh...";
+                strValue = "  Uh...";
+                break;
+            case CustomTextAction.SayGoodEvening:
+                strValue = "  GoodEvening!!";
                 break;
             case CustomTextAction.Off:
             default:
                 break;
         }
-        SendSpeakValue(strValue);
+        if (strValue != "") {
+            SendSpeakValue(strValue);
+        }
         textStatus = value;
     }
     /**
