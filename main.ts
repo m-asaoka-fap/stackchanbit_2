@@ -3,6 +3,9 @@ input.onLogoEvent(TouchButtonEvent.LongPressed, function () {
     custom.SetTextAction(CustomTextAction.SayHappy)
     basic.showIcon(IconNames.Happy)
 })
+input.onButtonPressed(Button.A, function () {
+    custom.SetPanAction(CustomPanAction.PanRight)
+})
 input.onGesture(Gesture.Shake, function () {
     custom.SetAvatar(Avatar.Angry)
     custom.SetTextAction(CustomTextAction.SayAngry)

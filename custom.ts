@@ -149,25 +149,25 @@ namespace custom {
         let strValue = "";
         switch(value) {
             case CustomTextAction.SayHello:
-                strValue = "こんにちは";
+                strValue = "HELLO";
                 break;
             case CustomTextAction.SayGoodMorning:
-                strValue = "おはよう";
+                strValue = "GoodMorning";
                 break;
             case CustomTextAction.SayGoodNight:
-                strValue = "おやすみなさい";
+                strValue = "GoodNight zzz";
                 break;
             case CustomTextAction.SayAngry:
-                strValue = "おこった";
+                strValue = "Angry!!";
                 break;
             case CustomTextAction.SayHappy:
-                strValue = "うれしい";
+                strValue = "Happy!!";
                 break;
             case CustomTextAction.SaySat:
-                strValue = "かなしい";
+                strValue = "Sat...";
                 break;
             case CustomTextAction.SayDoubt:
-                strValue = "うーん";
+                strValue = "Uh...";
                 break;
             case CustomTextAction.Off:
             default:
