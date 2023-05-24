@@ -1,7 +1,7 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="v*WZnEgoNNbuC*G2Rxs5" x="-674" y="-228"><statement name="HANDLER"><block type="custom_start" id="2Qe3uTLRb+DS~voZJ:zc"><next><block type="device_show_leds" id="cV2unPqJaKqi[u5^HJA:"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="v*WZnEgoNNbuC*G2Rxs5" x="17" y="-490"><statement name="HANDLER"><block type="custom_start" id="2Qe3uTLRb+DS~voZJ:zc"><next><block type="device_show_leds" id="cV2unPqJaKqi[u5^HJA:"><field name="LEDS">`
         . . . . . 
         . # . # . 
         . . . . . 
         . # # # . 
         . . . . .
-        `</field></block></next></block></statement></block><block type="input_logo_event" id="01/o-J4}}3[XRzFvZ=Y9" x="644" y="11"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="custom_TiltY" id="y2*J;bH8N]#Er(X*2A?x"><value name="value"><shadow type="math_number" id="5$FywT5N9KQfLc7aPi:q"><field name="NUM">30</field></shadow></value><next><block type="custom_TiltY" id="1D28Gl`syOL[qMczB75*"><value name="value"><shadow type="math_number" id="u4eAsMV{gEl)W^$[tVG~"><field name="NUM">-30</field></shadow></value><next><block type="custom_TiltY" id="-s[Hub+wpy|,.`VnX!jK"><value name="value"><shadow type="math_number" id="6d}un*BB7(5/TWMwn#a="><field name="NUM">-30</field></shadow></value></block></next></block></next></block></statement></block><block type="device_forever" id=";InanDdIH~;~LJFg|qiO" x="-532" y="210"></block></xml>
+        `</field></block></next></block></statement></block><block type="device_forever" id=";InanDdIH~;~LJFg|qiO" x="50" y="-53"></block></xml>
