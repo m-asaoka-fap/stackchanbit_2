@@ -46,7 +46,7 @@ enum CustomTiltAction {
  *  吹き出し（ふきだし）の種別
  */
 enum CustomTextAction {  
-    //% block="消す（けす）"
+    //% block="「なし」"
     Off = 0,
     //% block="「こんにちは」"
     SayHello = 1,
