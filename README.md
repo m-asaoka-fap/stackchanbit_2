@@ -1,6 +1,9 @@
 
 > このページを開く [https://m-asaoka-fap.github.io/stackchanbit_2/](https://m-asaoka-fap.github.io/stackchanbit_2/)
 
+## Stackchan-bit MakeCode専用ブロックについて
+MakeCode で **拡張機能** として追加できます。
+
 ## 拡張機能として使用
 
 このリポジトリは、MakeCode で **拡張機能** として追加できます。
@@ -13,7 +16,8 @@
 ## 本ブロックの使用について
 
 本ブロックの使用許諾権については一般社団法人FAPに属します。
-こちらの機能を使用して、学校の授業やワークショップを実施するには、一般社団法人FAPの許諾が必要となります。
+こちらの機能を使用して、教育機関、学校の授業やワークショップを実施するには、一般社団法人FAPの許諾が必要となります。
+※個人的に楽しんでいただく分には不要です。
 詳細については、こちら[https://www.kanazawafap.com/contact.html] からお問い合わせください。
 
 ## このプロジェクトを編集します ![ビルド ステータス バッジ](https://github.com/m-asaoka-fap/stackchanbit_2/workflows/MakeCode/badge.svg)
