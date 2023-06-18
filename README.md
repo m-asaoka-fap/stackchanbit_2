@@ -2,28 +2,30 @@
 > このページを開く [https://m-asaoka-fap.github.io/stackchanbit_2/](https://m-asaoka-fap.github.io/stackchanbit_2/)
 
 ## Stackchan-bit MakeCode専用ブロックについて
-MakeCode で **拡張機能** として追加できます。
+* StackChanをmicro:bitで簡単にプログラミングできるオリジナルブロックになります。
 
 ## 拡張機能として使用
-
-このリポジトリは、MakeCode で **拡張機能** として追加できます。
-
+このリポジトリは、MakeCode で **拡張機能** として追加できますhttps://makecode.microbit.org/ を開く
+新しいプロジェクト をクリックしてください
+ギアボタンメニューの中にある **拡張機能** をクリックしてください
 * [https://makecode.microbit.org/](https://makecode.microbit.org/) を開く
 * **新しいプロジェクト** をクリックしてください
 * ギアボタンメニューの中にある **拡張機能** をクリックしてください
 * **https://github.com/m-asaoka-fap/stackchanbit_2** を検索してインポートします。
+インポートすると、以下の感じで「スタックチャン」の制御ブロックが追加されます。
 
-## 本ブロックの使用について
+コードは、https://github.com/m-asaoka-fap/stackchanbit_2の「custum.ts」に定義してあります。
 
-本ブロックの使用許諾権については一般社団法人FAPに属します。
+## 本ブロックの使用についての注意事項
+
+本ブロックの使用許諾権については **一般社団法人FAP** に属します。
 こちらの機能を使用して、教育機関、学校の授業やワークショップを実施するには、一般社団法人FAPの許諾が必要となります。
 ※個人的に楽しんでいただく分には不要です。
 詳細については、こちら[https://www.kanazawafap.com/contact.html] からお問い合わせください。
 
-## このプロジェクトを編集します ![ビルド ステータス バッジ](https://github.com/m-asaoka-fap/stackchanbit_2/workflows/MakeCode/badge.svg)
+## コードをさらに編集する場合
 
 MakeCode でこのリポジトリを編集します。
-
 * [https://makecode.microbit.org/](https://makecode.microbit.org/) を開く
 * **読み込む** をクリックし、 **URLから読み込む...** をクリックしてください
 * **https://github.com/m-asaoka-fap/stackchanbit_2** を貼り付けてインポートをクリックしてください
