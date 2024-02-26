@@ -111,10 +111,10 @@ namespace custom {
         let destValue = 0;
         switch(value) {
             case CustomPanAction.PanRight:
-                destValue = panStatus + 45;
+                destValue = 30;
                 break;
             case CustomPanAction.PanLeft:
-                destValue = panStatus - 45;
+                destValue = -30;
                 break;
             case CustomPanAction.PanFlont:
             default:
@@ -134,7 +134,7 @@ namespace custom {
                 destValue = tiltStatus + 15;
                 break;
             case CustomTiltAction.TiltDown:
-                destValue = tiltStatus - 15;
+                destValue = tiltStatus -15;
                 break;
             case CustomTiltAction.TiltFlont:
             default:
