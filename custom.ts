@@ -87,6 +87,9 @@ namespace custom {
             SerialPin.P1,
             BaudRate.BaudRate115200
         )
+        
+        // セットアップが終わるまでWait
+        basic.pause(1000);
         // リセットを実行
         Reset();
         // 初期化完了
@@ -304,10 +307,13 @@ namespace custom {
     export function Reset() : void {
         // Panアクションを初期値に
         SetPanAction(CustomPanAction.PanFlont);
+        basic.pause(1000);
         // Tiltアクションを初期値に
         SetTiltAction(CustomTiltAction.TiltFlont);
+        basic.pause(1000);
         // 吹き出しをリセット
         SetTextAction(CustomTextAction.Off);
+        basic.pause(1000);
         // 表情をリセット
         SetAvatar(Avatar.Neutral);
     }
