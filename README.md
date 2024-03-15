@@ -5,16 +5,19 @@
 * StackChanをmicro:bitで簡単にプログラミングできるオリジナルブロックになります。
 
 ## 拡張機能として使用
-このリポジトリは、MakeCode で **拡張機能** として追加できますhttps://makecode.microbit.org/ を開く
-新しいプロジェクト をクリックしてください
-ギアボタンメニューの中にある **拡張機能** をクリックしてください
+このリポジトリは、MakeCode で **拡張機能** として追加できます
 * [https://makecode.microbit.org/](https://makecode.microbit.org/) を開く
 * **新しいプロジェクト** をクリックしてください
 * ギアボタンメニューの中にある **拡張機能** をクリックしてください
-* **https://github.com/m-asaoka-fap/stackchanbit_2** を検索してインポートします。
+* 検索窓に **https://github.com/m-asaoka-fap/stackchanbit_2** を入力してインポートします。
 インポートすると、以下の感じで「スタックチャン」の制御ブロックが追加されます。
 
-コードは、https://github.com/m-asaoka-fap/stackchanbit_2の「custum.ts」に定義してあります。
+<img src="https://github.com/m-asaoka-fap/stackchanbit_2/blob/master/extension.png" width="320px">
+
+※コードは、[custum.ts](https://github.com/m-asaoka-fap/stackchanbit_2/blob/master/custom.ts)に定義してあります。
+
+
+
 
 ## 本ブロックの使用についての注意事項
 
