@@ -12,7 +12,7 @@
 * 検索窓に **https://github.com/m-asaoka-fap/stackchanbit_2** を入力してインポートします。
 インポートすると、以下の感じで「スタックチャン」の制御ブロックが追加されます。
 
-<img src="https://github.com/m-asaoka-fap/stackchanbit_2/blob/main/extension.png" width="320px">
+<img src="https://github.com/m-asaoka-fap/stackchanbit_2/blob/master/extension.png" width="320px">
 
 ※コードは、[custum.ts](https://github.com/m-asaoka-fap/stackchanbit_2/blob/master/custom.ts)に定義してあります。
 
